@@ -4,7 +4,7 @@ module.exports = {
     '<rootDir>/src/**/*.{ts.tsx}'
   ],
   coverageDirectory: 'covegare',
-  textEnvironment: 'node',
+  testEnvironment: 'node',
   transform: {
     '.+\\.ts$': 'ts-jest'
   }
